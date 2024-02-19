@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.5
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Jul 12, 2019 at 08:51 AM
+- Server version: 10.1.38-MariaDB
+- PHP Version: 7.3.2
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="ssdm" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="contact">
+                CREATE TABLE `contact` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `name` varchar(30) NOT NULL,
+                  `number` text NOT NULL,
+                  `address` varchar(100) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="student">
+                CREATE TABLE `student` (
+                  `id` int(10) NOT NULL AUTO_INCREMENT,
+                  `name` varchar(50) NOT NULL,
+                  `fathersName` varchar(50) NOT NULL,
+                  `Roll` text NOT NULL,
+                  `address` varchar(50) NOT NULL,
+                  `phoneNumber` text NOT NULL,
+                  `class` int(2) NOT NULL,
+                  `gender` text NOT NULL,
+                  `DateOfBirth` varchar(15) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'ssdm'
+    -->
+    <database name="ssdm">
+        <!-- Table contact -->
+        <table name="contact">
+            <column name="id">1</column>
+            <column name="name">kamal</column>
+            <column name="number">0123456789</column>
+            <column name="address">Arabic teacher,ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">2</column>
+            <column name="name">jamal</column>
+            <column name="number">0123456789</column>
+            <column name="address">Bangla teacher,ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">5</column>
+            <column name="name">Md. jamal</column>
+            <column name="number">123456789</column>
+            <column name="address">math teacher,ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">6</column>
+            <column name="name">shofiqul islam</column>
+            <column name="number">123456789</column>
+            <column name="address">principle,ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">7</column>
+            <column name="name">Rofuqul islam</column>
+            <column name="number">0123456789</column>
+            <column name="address">Quran lecturer,ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">8</column>
+            <column name="name">Md. Belal hossain</column>
+            <column name="number">0123456789</column>
+            <column name="address">Fiqoh lecturer, ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">9</column>
+            <column name="name">Abdus subahan</column>
+            <column name="number">0123456789</column>
+            <column name="address">Hadith lecturer, ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">10</column>
+            <column name="name">Yousuf hossain</column>
+            <column name="number">0123456789</column>
+            <column name="address">Islamic History lecturer, ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">11</column>
+            <column name="name">Bulbul hossian</column>
+            <column name="number">0123456789</column>
+            <column name="address">Bangla lecturer, ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">12</column>
+            <column name="name">Sabina Begum</column>
+            <column name="number">0123456789</column>
+            <column name="address">Ict lecturer, ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">13</column>
+            <column name="name">Munsur hussain</column>
+            <column name="number">0123456789</column>
+            <column name="address">English lecturer, ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">14</column>
+            <column name="name">Sogir Islam</column>
+            <column name="number">0123456789</column>
+            <column name="address">Math lecturer, ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">15</column>
+            <column name="name">shohidul islam</column>
+            <column name="number">0123456789</column>
+            <column name="address">Agriculture lecturer, ssdm</column>
+        </table>
+        <table name="contact">
+            <column name="id">16</column>
+            <column name="name">Yousuf hossain</column>
+            <column name="number">0123456789</column>
+            <column name="address">Social science lecturer, ssdm</column>
+        </table>
+        <!-- Table student -->
+        <table name="student">
+            <column name="id">1</column>
+            <column name="name">Md. jamal</column>
+            <column name="fathersName">kamal</column>
+            <column name="Roll">321</column>
+            <column name="address">india</column>
+            <column name="phoneNumber">123456789</column>
+            <column name="class">5</column>
+            <column name="gender">male</column>
+            <column name="DateOfBirth"></column>
+        </table>
+        <table name="student">
+            <column name="id">4</column>
+            <column name="name">jamal</column>
+            <column name="fathersName">kamal</column>
+            <column name="Roll">123</column>
+            <column name="address">india</column>
+            <column name="phoneNumber">0</column>
+            <column name="class">10</column>
+            <column name="gender">male</column>
+            <column name="DateOfBirth">2015-07-12</column>
+        </table>
+        <table name="student">
+            <column name="id">5</column>
+            <column name="name">shofiqul islam</column>
+            <column name="fathersName">jamal</column>
+            <column name="Roll">101000</column>
+            <column name="address">india</column>
+            <column name="phoneNumber">123456789</column>
+            <column name="class">3</column>
+            <column name="gender">male</column>
+            <column name="DateOfBirth">2016-07-12</column>
+        </table>
+        <table name="student">
+            <column name="id">6</column>
+            <column name="name">à¦œà¦¾à¦¹à¦¿à¦¦ à¦¹à¦¾à¦¸à¦¾à¦¨</column>
+            <column name="fathersName"></column>
+            <column name="Roll">0000000000</column>
+            <column name="address">à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶</column>
+            <column name="phoneNumber">0000000000</column>
+            <column name="class">10</column>
+            <column name="gender">male</column>
+            <column name="DateOfBirth"></column>
+        </table>
+        <table name="student">
+            <column name="id">7</column>
+            <column name="name">à¦œà§Ÿà¦¨à¦¾à¦¬ à¦–à¦¾à¦¤à§à¦¨</column>
+            <column name="fathersName"></column>
+            <column name="Roll">00000000000</column>
+            <column name="address">à¦¬à¦¾à¦‚à¦²à¦¾à¦¦à§‡à¦¶</column>
+            <column name="phoneNumber">00000000000</column>
+            <column name="class">10</column>
+            <column name="gender">female</column>
+            <column name="DateOfBirth"></column>
+        </table>
+        <table name="student">
+            <column name="id">8</column>
+            <column name="name">habiba</column>
+            <column name="fathersName"></column>
+            <column name="Roll">00000</column>
+            <column name="address">bangladesh</column>
+            <column name="phoneNumber">000000000</column>
+            <column name="class">8</column>
+            <column name="gender">female</column>
+            <column name="DateOfBirth"></column>
+        </table>
+        <table name="student">
+            <column name="id">9</column>
+            <column name="name">habib</column>
+            <column name="fathersName"></column>
+            <column name="Roll">0000000</column>
+            <column name="address">bangladesh</column>
+            <column name="phoneNumber">00000000</column>
+            <column name="class">8</column>
+            <column name="gender">male</column>
+            <column name="DateOfBirth"></column>
+        </table>
+        <table name="student">
+            <column name="id">10</column>
+            <column name="name">kamal</column>
+            <column name="fathersName">jamal</column>
+            <column name="Roll">101000</column>
+            <column name="address">india</column>
+            <column name="phoneNumber">0</column>
+            <column name="class">7</column>
+            <column name="gender">male</column>
+            <column name="DateOfBirth">2005-06-12</column>
+        </table>
+    </database>
+</pma_xml_export>
