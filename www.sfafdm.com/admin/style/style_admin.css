@@ -1,0 +1,11 @@
+.admin_block{
+	display:block;
+	font-weight:bold;
+	border:3px solid tomato;
+	border-radius:25px;
+	margin:15px;
+	padding:15px;
+	overflow:hidden;
+	min-height:300px;
+	
+}

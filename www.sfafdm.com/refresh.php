@@ -1,0 +1,1 @@
+<meta HTTP-EQUIV="Refresh" CONTENT="185; URL=#footer">

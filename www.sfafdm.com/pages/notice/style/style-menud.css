@@ -1,0 +1,38 @@
+
+section.section-menud{
+	overflow:hidden;
+}
+section.section-menud li{
+	display:block;
+	margin:5px;
+	border-radius:15px;
+	padding:15px;
+	background:#542AC8;
+	background-image: linear-gradient(130deg,#BD2580,#724BA3,  #28968E);
+}
+section.section-menud li a{
+	margin:0 auto;
+	text-decoration:none;
+	color:tomato;
+	font-weight:bold;
+	font-size:23px;
+	padding:5px;
+	background-color:white;
+	border:1px solid black;
+	border-radius:15px;
+}
+section.section-menud li a.mark{
+	border:3px solid tomato;
+	outline:3px solid red;
+}
+section.section-menud li a.mark:hover{	
+	background-color:#5324C6;	
+	background-image: linear-gradient(red,pink);
+}
+section.section-menud li a:hover{
+	
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	color:white;
+	background-color:#5324C6;
+	background-image: url("http://localhost/www.sfafdm.com/img/paper.gif");
+}

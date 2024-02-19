@@ -1,0 +1,33 @@
+<?php
+			$servername = "localhost";
+			$username = "root";
+			$password = "";
+			$dbname = "ibitbogura";
+
+			// Create connection
+			$conn = new mysqli($servername, $username, $password, $dbname);
+			// Check connection
+			if ($conn->connect_error) {
+				die("Connection failed: " . $conn->connect_error);
+			} 
+
+			$sql = "SELECT * FROM visitclienthomepage";
+			$result = $conn->query($sql);
+
+			if ($result->num_rows > 0) {
+				// output data of each row
+				$n=1;
+				echo "<table style='margin:auto; text-align:center; font-size:33px;'> <th>No.</th>  <th>location</th><th>deviceName</th> <th>screenSize</th>";
+				while($row = $result->fetch_assoc()) {
+					?>
+					<tr> <td><?php echo $n;?></td><td> <a style='color:black; text-decoration:none;' href='<?php echo $row["location"];?>'><?php echo $row["location"];?></a> </td><td><?php echo $row["deviceName"];?></td><td><?php echo $row["screenSize"];?></td></tr>;
+					<?php
+					$n++;
+				}
+				echo " </table>";
+			} else {
+				echo "0 results";
+			}
+
+			$conn->close();
+			?> 

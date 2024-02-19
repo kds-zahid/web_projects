@@ -1,0 +1,342 @@
+*{
+	margin:0;
+}
+/*--header-start--*/
+header{
+filter: blur(0px);
+	color:white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-weight:bold;	
+	background-image: linear-gradient(270deg,#FBF4EB,#FBF1F5,  #EAF7FC);
+/*	background-image: linear-gradient(270deg,#36B8E9,#2EC9DB,  #9CBCB4);
+background-image:url('img_snow_wide.jpg');*/
+	background-height:100%;
+	background-width:100%;
+	background-repeat:no-repeat;
+	background-color:deepskyblue;
+	text-align:center;
+	padding:20px;
+	font-size:30px;
+
+}
+.header{
+	
+	z-index:999999999999999999;
+	width:100%;
+	text-align:center;
+}
+
+a.admition{
+	border:1px solid black;
+	font-size:12px;
+	background-color:red;
+	text-decoration:none;
+	padding:15px;
+	background-color:white;
+	border-radius:0% 90%;
+	color:white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	animation:admition 15s infinite;
+}
+@keyframes admition{
+	0% {border-radius:0% 90%;}
+	25% {border-radius:0% 50%;}
+	50% {border-radius:0% 90%;}
+	75% {border-radius:0% 50%;}
+	100% {border-radius:0% 90%;}
+}
+
+
+
+a.admition2{	
+	border:1px solid black;
+	font-size:12px;
+	background-color:red;
+	text-decoration:none;
+	padding:15px;
+	background-color:white;
+	border-radius:90% 0%;
+	color:white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	animation:admitionee 15s infinite;
+}
+@keyframes admitionee{
+	0% {border-radius:90% 0%;}
+	25% {border-radius:50% 0%;}
+	50% {border-radius:90% 0%;}
+	75% {border-radius:50% 0%;}
+	100% {border-radius:90% 0%;}
+}
+
+
+/*--header-end--*/
+/*--menu-start--*/
+
+section.section-menu img#open{
+	display:none;
+	
+}
+section.section-menu{
+	overflow:hidden;
+	z-index:999999999999999999;
+	position: -webkit-sticky;
+	position: sticky;
+	border-bottom:5px solid white;
+	top: 0;
+	background:#542AC8;
+	background-image: linear-gradient(270deg,#FBF4EB,#FBF1F5,  #EAF7FC);
+}
+section.section-menu li{
+	display:inline-block;
+	margin:5px;
+	padding:5px;
+}
+section.section-menu li a{
+	text-decoration:none;
+	color:tomato;
+	font-weight:bold;
+	font-size:23px;
+	padding:5px;
+	background-color:white;
+	border:1px solid black;
+	border-radius:15px;
+}
+
+section.section-menu li a.mark{
+	border:3px solid red;
+}
+section.section-menu li a.mark:hover{
+	background-color:#5324C6;
+}
+section.section-menu li a:hover{
+	background-image:url('http://localhost/www.sfafdm.com/img/paper.gif');
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	color:white;
+	/*
+	animation:borderradius 1s normal;
+	*/
+}
+/*
+	@keyframes borderradius{
+		0% {border-radius:0px 0%;}
+		25%{border-radius:0px 50%;}
+		50%{border-radius:0px 0px;}
+		75%{border-radius:50% 0px;}
+		100%{border-radius:0px 0px;}
+	}
+*/
+/*--menu-end--*/																								                                                                                                                               /*zahid*/
+/*section-start-------------------------*/
+section.form{
+	min-height:500px;
+	overflow:hidden;
+	/*
+	background:#F9F2F6;
+	*/
+	background-image: url("http://localhost/www.sfafdm.com/img/chainlink.gif") ;
+    background-attachment: fixed;
+	/*
+    background-repeat: repeat-y;
+	*/
+	padding:15px;
+}
+	section.sideImage{
+		position:relative; 
+		float:left; 
+		height:100%; 
+		width:120px;
+		margin:-20;
+		background-image: url("http://localhost/www.sfafdm.com/img/notebook2_sm.jpg") ; 
+		background-repeat: repeat-y;
+	}
+	section.content{
+		
+	}
+			section.content .sectionCover{
+				width:98%;
+				height:100%;
+				margin:0 auto;
+			}
+			section.content .sectionContent{
+				display:inline;
+				height:100%;
+			}
+			section.content .slideLeft{		
+				float:left;
+				width:20%;
+				
+			}
+				section.content .slideLeftContent{
+					padding:5px;
+					overflow:auto;
+					width:96%;
+					height:100%;
+					margin:0 auto;
+					border-radius:15px;
+				}
+					section.content .slideLeftContent .contentColomn{
+						width:90%;
+						background-color:cyan;
+						background-image: linear-gradient(130deg,#BD2580,#724BA3,  #28968E);
+						box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+						color:black;
+						font-weight:bold;
+						border:1px solid black;
+						margin:5px auto auto auto;
+						border-radius:15px;
+						padding:5px;
+						display:block;
+						overflow:auto;
+					}		
+					section.content .slideLeftContent .contentColomn h1{
+						background-image: url("http://localhost/www.sfafdm.com/img/paper.gif");
+						background-color:pink;
+						color:black;
+						padding:3px;
+						border-radius:5px;
+						text-align:center;
+					}		
+					section.content .slideLeftContent .contentColomn p{
+						color:white;
+						text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+					}	
+					section.content .slideLeftContent .contentColomn h1:hover{
+						color:white;
+						text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+					}		
+					section.content .slideLeftContent .contentColomn a{
+						margin-top:3px;
+						display:block;
+						text-decoration:none;
+						text-align:center;
+						background-color:black;
+						color:white;
+						font-weight:bold;
+						padding:3px;
+						border-radius:5px;
+					}			
+					section.content .slideLeftContent .contentColomn a:hover{
+						background-color:white;
+						color:black;
+					}			
+					section.content .slideLeftContent .contentColomn img{
+						width:100%;
+						height:auto;
+					}			
+			section.content .middleContent{	
+				float:left;
+				width:50%;
+			}
+			section.content .slideRight{	
+				float:left;
+				width:30%;
+			}
+
+/*--form cover start-----------*/
+div.form-cover-main{
+		margin:auto;
+		border:1px solid black;
+		background-color:black;
+		color:white;
+		/*ackground-image:linear-gradient(#35B9E8,#30C9DA,#9BBCB4);*/
+		position:relative;
+		padding:25px;
+}
+div.form-cover-main,div.form-cover{
+		width:250px;
+		border-radius:25px;
+}
+	div.form-cover{
+		position:relative;
+		/*background-image:url(image/ibit-animated-logo.gif);*/
+		background-size:250px;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+/*--form cover end-----------*/
+/*section-end-------------*/
+
+/*footer start*/
+footer{
+	
+	z-index:999999999999999999;
+	overflow:hidden;
+	background-color:black;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	padding:15px;
+}
+footer p{
+	padding:15px;
+}
+/*footer end*/
+/*--rotate-start--*/
+.footer-text-align2{
+	border:1px solid white;
+	border-radius:15px;
+	padding:5px;
+	margin:20px;
+	font-size:18px;
+	float:right;
+	animation: footer 5s infinite;
+}
+@keyframes footer{	
+	0% {transform:rotate(0deg);}
+	100% {transform:rotate(360deg);}
+}
+/*--rotate-end--*/
+
+/*div.fixed start*/
+div.fixed{	
+	z-index:9999999999999999999;
+	position:fixed;
+	right:50;
+	top:200;
+	background:black;
+	overflow:auto;
+	border:1px solid white;
+	border-radius:15px;
+}
+.fixed p{
+	display:block;
+	text-align:center;
+	padding:15px;
+	font-size:25px;
+}
+.fixed a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+/*div.fixed end*/
+
+@media (max-width: 700px){	
+	section.section-menu #menutable{
+		display:none;
+	}
+	section.section-menu #open{
+		display:inline;
+	}
+	/*
+	section.section-menu #close{
+		display:none;
+	}
+	*/
+	section.form{
+	background-image: url("http://localhost/www.sfafdm.com/img/grymarb.gif") ;
+	/*
+    background-repeat: repeat-y;
+	*/
+	padding:15px;
+	}
+	section.sideImage{
+		display:none;
+	}
+}
+@media (max-width: 300px){
+	
+}
+table{
+  empty-cells: hide;
+}

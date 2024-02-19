@@ -1,0 +1,121 @@
+
+/*form-option-start------------*/
+
+.form-option{
+	margin:auto;
+	width:100%;
+	padding:5px;
+	border-radius:15px;
+	overflow:hidden;
+}
+	.form-option input{
+		width:100%;
+		margin:auto;
+		float:center;
+		background-color:white;
+		border-radius:15px;
+		border:5px solid black;
+		font-weight:bold;
+		font-size:25px;
+	}
+	.form-option input:hover{
+		
+		background-color:black;
+		color:white;		
+		border-radius:15px;
+		border:5px solid white;
+		font-weight:bold;
+		font-size:25px;
+		animation:3s rotate infinite;
+	}
+	@keyframes rotate{
+		0%{
+			transform:rotate(0deg);
+		}
+		25%{
+			
+			transform:rotate(30deg);
+		}
+		50%{
+			
+			transform:rotate(0deg);
+		}
+		75%{
+			transform:rotate(-30deg);}
+		100%{
+			
+			transform:rotate(0deg);
+		}
+	}
+/*-form option end------------*/
+/*--form cover start-----------*/
+div.form-cover-main{
+		margin:auto;
+		border:1px solid black;
+		background-color:black;
+		color:white;
+		/*ackground-image:linear-gradient(#35B9E8,#30C9DA,#9BBCB4);*/
+		position:relative;
+		padding:25px;
+}
+div.form-cover-main,div.form-cover{
+		width:250px;
+		border-radius:25px;
+}
+	div.form-cover{
+		position:relative;
+		/*background-image:url(image/ibit-animated-logo.gif);*/
+		background-size:250px;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+/*--form cover end-----------*/
+
+/*--submit-form start-----------*/
+div.submit-form{
+	
+}
+	#input-submit{
+		width:100%;
+		background-color:black;																																																	/*Zahid*/
+		color:white;
+		font-weight:bold;
+		font-size:25px;
+	}
+	#input-submit:hover{
+		width:100%;
+		background-color:white;
+		color:black;
+		font-weight:bold;
+		font-size:25px;
+	}
+/*--submit-form end-----------*/
+
+/*submit form start -----------------*/
+div.submit-form input.full-width-input{
+		border-radius:15px;
+		padding:5px;
+		width:100%;
+	}
+div.submit-form select{
+		border-radius:15px;
+		padding:5px;
+		background-color:white;
+		color:black;
+		width:100%;
+	}
+div.submit-form input.full-width-input:hover{
+		background-color:black;
+		color:white;
+	}
+div.submit-form select:hover{
+		background-color:black;
+		color:white;
+	}
+	option{
+		font-size:35px;
+		font-weight:bold;
+	}
+/*submit form end -----------------*/
+form{}
+/*section-end-------------*/

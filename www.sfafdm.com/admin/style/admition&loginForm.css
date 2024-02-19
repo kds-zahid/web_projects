@@ -1,0 +1,97 @@
+
+/*form-option-start------------*/
+
+.form-option{
+	margin:auto;
+	width:100%;
+	padding:5px;
+	border-radius:15px;
+	overflow:hidden;
+}
+	.form-option input{
+		width:100%;
+		margin:auto;
+		float:center;
+		background-color:white;
+		border-radius:15px;
+		border:5px solid black;
+		font-weight:bold;
+		font-size:25px;
+	}
+	.form-option input:hover{
+		
+		background-color:black;
+		color:white;		
+		border-radius:15px;
+		border:5px solid white;
+		font-weight:bold;
+		font-size:25px;
+		animation:3s rotate infinite;
+	}
+	@keyframes rotate{
+		0%{
+			transform:rotate(0deg);
+		}
+		25%{
+			
+			transform:rotate(30deg);
+		}
+		50%{
+			
+			transform:rotate(0deg);
+		}
+		75%{
+			transform:rotate(-30deg);}
+		100%{
+			
+			transform:rotate(0deg);
+		}
+	}
+/*-form option end------------*/
+
+/*--form cover start-----------*/
+div.form-cover-main{
+		margin:auto;
+		border:1px solid black;
+		background-color:black;
+		color:white;
+		/*ackground-image:linear-gradient(#35B9E8,#30C9DA,#9BBCB4);*/
+		position:relative;
+		padding:25px;
+}
+div.form-cover-main,div.form-cover{
+		width:250px;
+		border-radius:25px;
+		
+}
+	div.form-cover{
+		position:relative;
+		/*background-image:url(image/ibit-animated-logo.gif);*/
+		background-size:250px;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+/*--form cover end-----------*/
+
+/*--login-form start-----------*/
+div.login-form{
+}
+/*--login-form end-----------*/
+
+/*login and submit form start -----------------*/
+div.login-form  input,select,div.submit-form input,select{
+		border-radius:15px;
+		padding:5px;
+		width:100%;
+	}
+div.login-form  input:hover,div.submit-form input:hover,select:hover{
+		border-radius:15px;
+		padding:5px;
+		background-color:black;
+		color:white;
+	}
+	option{
+		font-size:35px;
+		font-weight:bold;
+	}
+/*login and submit form end -----------------*/

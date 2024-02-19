@@ -1,0 +1,132 @@
+*{
+	margin:0;
+}
+body{
+}
+/*header-start-------------*/
+header{
+	overflow:auto;
+	top:0;
+	background:white;
+	color:white;
+	background-image:linear-gradient(white,white,white,#663AB5);	
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	text-align:center;
+	font-weight:bold;
+	padding:25px;
+	
+}
+	p.head{
+		font-size:45px;
+		font-family:Old English Text MT;
+	}
+	p.sub-head{
+		font-size:15px;
+	}
+/*header-end-------------*/ 																										/*zahid*/
+/*section-start-------------------------*/
+section.form{
+	min-height:500px;
+	overflow:auto;
+	background:#FBF1F5;
+	background-image: linear-gradient(#FBF4EB,#FBF1F5);
+	padding:15px;
+}
+
+
+/*--form cover start-----------*/
+div.form-cover-main{
+		margin:auto;
+		border:1px solid black;
+		background-color:black;
+		color:white;
+		/*ackground-image:linear-gradient(#35B9E8,#30C9DA,#9BBCB4);*/
+		position:relative;
+		padding:25px;
+}
+div.form-cover-main,div.form-cover{
+		width:250px;
+		border-radius:25px;
+}
+	div.form-cover{
+		position:relative;
+		/*background-image:url(image/ibit-animated-logo.gif);*/
+		background-size:250px;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+/*--form cover end-----------*/
+
+/*--submit-form start-----------*/
+div.submit-form{
+	
+}
+	#input-submit{
+		width:100%;
+		background-color:black;																																																	/*Zahid*/
+		color:white;
+		font-weight:bold;
+		font-size:25px;
+	}
+	#input-submit:hover{
+		width:100%;
+		background-color:white;
+		color:black;
+		font-weight:bold;
+		font-size:25px;
+	}
+/*--submit-form end-----------*/
+
+/*submit form start -----------------*/
+div.submit-form input.full-width-input{
+		border-radius:15px;
+		padding:5px;
+		width:100%;
+	}
+div.login-form  input:hover,div.submit-form input:hover,select:hover{
+		border-radius:15px;
+		padding:5px;
+		background-color:black;
+		color:white;
+	}
+	option{
+		font-size:35px;
+		font-weight:bold;
+	}
+/*submit form end -----------------*/
+form{}
+/*section-end-------------*/
+
+/*footer start*/
+footer{
+	overflow:auto;
+	background-color:black;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+}
+footer p{
+	padding:15px;
+}
+/*footer end*/
+/*div.fixed start*/
+div.fixed{
+	position:fixed;
+	right:50;
+	top:200;
+	background:black;
+	overflow:auto;
+	border-radius:15px;
+}
+.fixed p{
+	display:block;
+	text-align:center;
+	padding:15px;
+	font-size:25px;
+}
+.fixed a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+/*div.fixed end*/

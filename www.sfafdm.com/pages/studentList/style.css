@@ -1,0 +1,58 @@
+*{
+	margin:0;
+}
+body{	
+	
+}
+.main{
+	width:80%;
+	margin:0 auto;
+}
+.header{
+	height:100px;
+	background-color:green;
+	color:#ffffff;
+	text-align:center;
+}
+
+.content{
+	overflow:hidden;
+	min-height:300px;
+	background-color:#CEFECE;
+	/**/
+	coloor:black;
+}
+.content h2{
+	text-align:center;
+	text-decoration:underline;
+	padding:20px;
+}
+.footer{
+	
+	color:white;
+	background-color:#008000;
+	color:#ffffff;
+	text-align:center;
+	padding:15px;
+	overflow:hidden;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.tbl{
+	width:50%;
+	margin:0 auto;
+	background-color: #E8E8FF;
+}
+
+
+
+
+
+
+
+
+

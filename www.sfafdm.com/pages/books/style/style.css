@@ -1,0 +1,71 @@
+<style type="text/css"> 
+.book-cover{
+	background-color:tomato;
+	height:80%;
+	width:50%;
+	
+}
+.book-element{
+	position:relative;
+}
+	.book-slide{
+		background-color:black;
+		color:white;
+		width:20%;
+		height:100%;
+		float:left;
+		border-radius:25px;
+		z-index:1;
+		overflow:auto;
+		
+	}
+		.bookList-cover{
+			margin:11px;
+		}
+			.classList{
+				background-color:tomato;
+				margin-top:3px;
+				border-radius:5px;
+				text-align:center;
+				padding:5px;
+				font-weight:bold;
+			}
+			.classList:hover{
+				background-color:red;
+				cursor:grab;
+			}
+				.classList ul{
+					display:none;
+				}
+				.classList ul li{
+					display:block;
+					margin-top:3px;
+					background:black;
+					padding:3px;
+					border-radius:5px;
+				}
+				.classList ul li a{
+					text-decoration:none;
+					color:white;
+					font-weight:bold;
+				}
+.book-content{
+	overflow:scroll;
+	text-align:center;
+	font-size:55px;
+	cursor:none;
+
+/*
+*/
+	width:80%;
+	height:100%;
+	float:left;
+}
+	iframe{
+		width:100%;
+		height:100%;
+		cursor:none;
+	}
+
+
+</style>

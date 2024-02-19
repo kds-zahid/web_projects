@@ -1,0 +1,24 @@
+body{
+    background-image: url("http://localhost/www.sfafdm.com/img/lock/ring.gif"), linear-gradient(130deg,#BD2580,#724BA3,  #28968E);
+	background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+form input.userInfo{
+	background-color:black;
+	height:0px;
+	width:0px;
+	visibility:hidden;
+} 
+form input.clientBrowse{
+	border-radius:15px;
+	border:3px solid tomato;
+	background-color:cyan;
+	padding:5px 15px;
+	font-size:33px;
+}
+form input.clientBrowse:hover{
+	background-color:black;
+	color:cyan;
+	background-image: url("http://localhost/www.sfafdm.com/img/paper.gif");
+	background-repeat:no-repeat;
+}
